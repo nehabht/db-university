@@ -1,5 +1,5 @@
 
-## QUERY GROUP BY:
+##  QUERY GROUP BY:
 ### 1. Contare quanti iscritti ci sono stati ogni anno
 ```
 SELECT count(`id`) AS `new_students`, YEAR(`enrolment_date`) AS `year_of_enrolment`
